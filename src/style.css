@@ -83,12 +83,20 @@ header>nav>ul>li{
     align-items: center;
     justify-content: center;
     gap: 20px;
+    background-color: rgb(10, 11, 10, .5);
+    border-radius: 20px;
+    padding: 10px;
 }
 
 #content>div>p{
     text-align: justify;
     text-justify: inter-word;
     font-size: 4rem;
+    color: #FED201;
+}
+
+#content>div>p>em{
+    color:#EA0100
 }
 
 #content>p {
@@ -184,5 +192,11 @@ header>nav>ul>li{
         width: 300px;
         background-color: rgb(248, 189, 1, .5);
         border-radius: 20px;
+    }
+
+    #content>div>p{
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 2rem;
     }
   }

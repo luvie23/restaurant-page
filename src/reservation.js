@@ -11,7 +11,7 @@ export default function reservation(){
     content.appendChild(board);
 
     const contact = document.createElement('p');
-    contact.innerHTML = "Marino Monferrato <br> 202-555-0186"
+    contact.innerHTML = "43 Regalado Avenue Cor. <br> Burbank Street North Fairview 1100 <br><br> <em>Marino Monferrato</em> <br> 202-555-0186"
 
 
     board.appendChild(contact);
