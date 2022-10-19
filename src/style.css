@@ -53,6 +53,7 @@ header>nav>ul>li{
 
 #content{
     display: flex;
+    flex-direction: column;
     height: 100vh;
     gap: 20px;
     align-items: center;
@@ -71,6 +72,14 @@ header>nav>ul>li{
     gap: 20px;
 }
 
+#content>p {
+    font-size: 6rem;
+    color: #FED201;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+
 .items{
     display: flex;
     align-items: center;
@@ -87,6 +96,7 @@ header>nav>ul>li{
 .items:hover{
     transform: scale(1.1);
     font-size: 1.5rem;
+    cursor: pointer;
 }
 
 .items>span{
@@ -107,6 +117,18 @@ header>nav>ul>li{
     background-size: cover;
 }
 
+#item3{
+    background-image: url("./imgs/burger.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#item4{
+    background-image: url("./imgs/ramen.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
 .description {
     height: 70px;
     width: 300px;
@@ -117,5 +139,28 @@ header>nav>ul>li{
 
 
 @media only screen and (max-width: 600px) {
+    #content>p{
+        margin-top: 80px;
+        margin-bottom: 30px;
+        font-size: 3rem;
+    }
+    #content>div{
+        margin-top: 0;
+        gap: 10px;
+    }
+    .items{
+        height: 190px;
+        width: 190px;
 
+    }
+    .items:hover{
+        transform: scale(1.1);
+        font-size: 1.1rem;
+    }
+    .description {
+        height: 70px;
+        width: 300px;
+        background-color: rgb(248, 189, 1, .5);
+        border-radius: 20px;
+    }
   }
