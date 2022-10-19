@@ -85,6 +85,12 @@ header>nav>ul>li{
     gap: 20px;
 }
 
+#content>div>p{
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 4rem;
+}
+
 #content>p {
     font-size: 6rem;
     color: #FED201;

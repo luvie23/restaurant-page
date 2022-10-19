@@ -10,11 +10,11 @@ export default function reservation(){
     content.appendChild(paragraph);
     content.appendChild(board);
 
-    const form = document.createElement('form');
-    const name = document.createElement('input');
+    const contact = document.createElement('p');
+    contact.innerHTML = "Marino Monferrato <br> 202-555-0186"
 
-    form.appendChild(name);
-    board.appendChild(form);
+
+    board.appendChild(contact);
 
 
 }
