@@ -27,7 +27,7 @@ export default function menu(){
     item4.classList.add('items');
 
     const paragraph = document.createElement('p');
-    paragraph.textContent = "GOOD FOOD, BETTER COMPANY"
+    paragraph.innerHTML = "GOOD FOOD, <em>BETTER</em> COMPANY"
 
     //food description
     item1.appendChild(createDiv()).textContent = "Breakfast Set (Sausage, Rice, Eggs)";

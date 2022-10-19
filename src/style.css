@@ -78,6 +78,9 @@ header>nav>ul>li{
     margin-top: 0;
     margin-bottom: 50px;
 }
+#content>p>em{
+    color:#EA0100 ;
+}
 
 
 .items{
@@ -138,7 +141,7 @@ header>nav>ul>li{
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
     #content>p{
         margin-top: 80px;
         margin-bottom: 30px;
