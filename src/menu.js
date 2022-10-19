@@ -1,13 +1,13 @@
 export default function menu(){
 
-    function createDiv(){
+    function createSpan(){
         const element = document.createElement('span');
         element.classList.add('description')
         return element;
     }
 
     const content = document.getElementById('content');
-
+    content.innerHTML = "";
     const board = document.createElement('div')
 
     const item1 = document.createElement('div');
@@ -30,10 +30,10 @@ export default function menu(){
     paragraph.innerHTML = "GOOD FOOD, <em>BETTER</em> COMPANY"
 
     //food description
-    item1.appendChild(createDiv()).textContent = "Breakfast Set (Sausage, Rice, Eggs)";
-    item2.appendChild(createDiv()).textContent = "SALAD INSIDE AN AVOCADO";
-    item3.appendChild(createDiv()).textContent = "SLOPPY BURGER";
-    item4.appendChild(createDiv()).textContent = "SEAFOOD RAMEN";
+    item1.appendChild(createSpan()).textContent = "Breakfast Set (Sausage, Rice, Eggs)";
+    item2.appendChild(createSpan()).textContent = "SALAD INSIDE AN AVOCADO";
+    item3.appendChild(createSpan()).textContent = "SLOPPY BURGER";
+    item4.appendChild(createSpan()).textContent = "SEAFOOD RAMEN";
     
     content.appendChild(paragraph);
     content.appendChild(board);
